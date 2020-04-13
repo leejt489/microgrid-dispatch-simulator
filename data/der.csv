@@ -1,0 +1,5 @@
+Name,Value
+solarInverterCap,0.3
+batteryInverterCap,1.2
+batteryEnergyCap,2
+beta,4

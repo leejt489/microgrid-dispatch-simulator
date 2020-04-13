@@ -1,0 +1,7 @@
+Activity,start_W,start_s,on_W,standby_W,min_s,max_s,value_USD_h,interrupt_USD
+TV1,50,5,50,5,1800,14400,1,5
+inc_lights,300,1,300,0,300,15600,2,10
+microwave,650,1,650,5,30,600,2,5
+hairdryer,1800,1,1800,0,60,1000,2,5
+washer,2500,20,2500,0,1800,3600,1,2
+pump,1300,5,1300,0,60,600,1,2

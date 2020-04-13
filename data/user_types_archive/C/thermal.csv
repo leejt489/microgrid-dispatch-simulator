@@ -1,0 +1,2 @@
+Device,start_W,start_s,on_W,standby_W,value_USD_h,interrupt_USD_C_h,temp_set_C,Cp_J_K,kTh_W_K,cool_W_Th,cool_eff,hyst_C
+aircon1,600,2,300,20,2,2,22,1.00E+07,50,1500,0.5,2

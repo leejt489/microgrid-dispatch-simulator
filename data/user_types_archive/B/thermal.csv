@@ -1,0 +1,2 @@
+Device,start_W,start_s,on_W,standby_W,value_USD_h,interrupt_USD_C_h,temp_set_C,Cp_J_K,kTh_W_K,cool_W_Th,cool_eff,hyst_C
+fridge1,300,1,120,10,0.5,1,5,5.00E+05,5,600,0.5,1
