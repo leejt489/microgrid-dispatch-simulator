@@ -20,11 +20,11 @@ end
 
 diff_str = sprintf('%s - %s',label1,label2);
 
-Estor = outputs1.E;
+Estor = outputs1.E/1000;
 Pu = outputs1.Pl;
-xi = outputs1.xi;
+xi = outputs1.xi/1000;
 
-Estor_j = outputs2.E;
+Estor_j = outputs2.E/1000;
 Pu_j = outputs2.Pl;
 xj = outputs2.xi;
 
@@ -37,14 +37,14 @@ yyaxis left
 plot(time,sum(Estor));
 yyaxis right
 plot(time,xi);
-title(['Total battery Wh: ', label1] )
+title(['Total battery kWh: ', label1] )
 legend('Estor','blackout');
 subplot(312);
 yyaxis left
 plot(time,sum(Estor_j));
 yyaxis right
 plot(time,xj);
-title(['Total battery Wh: ', label2] )
+title(['Total battery kWh: ', label2] )
 legend('Estor','blackout');
 subplot(313);
 yyaxis left
