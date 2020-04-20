@@ -1,7 +1,7 @@
 function [v,f,tSolve] = scenarioFormulationBackRecGurobi(gamma,Pg,Pl,ps,Estor0,E_max,P_max,Pl_max,Pc_max)%,Pt_max,Bbus,Mbus)
 
 params.OutputFlag = 0; % Suppress output
-params.TimeLimit = 300; % Set a 5 minute time limit on any run
+params.TimeLimit = 3600; % Set a 1 hr minute time limit on any run
 
 % State space discretization. Consider the state to be one aggregated
 % battery
